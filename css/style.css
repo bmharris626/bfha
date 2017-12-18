@@ -1,0 +1,36 @@
+.jumbotron {
+  background: url("../images/greylock_in_december.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+}
+
+.jumbotron h1 {
+  margin-bottom: 110px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+#last-name {
+  width: 36%;
+}
+
+#first-name {
+  width: 36%;
+}
+
+.form-group button {
+  width: 12%;
+}
+
+.form-group button span {
+  padding-right: 15px;
+}
+
+.ui-widget {
+  display: inline;
+}
+
+#collection {
+  width: 14%;
+}
