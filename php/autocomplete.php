@@ -23,7 +23,7 @@ $response = array();
 if ($result->num_rows > 0) {
   // save query results to array
   while( $row = $result->fetch_assoc()) {$response[] = $row[$_POST["column"]]; }
-} else { $response[] = "(No Matching Results)"; }
+} else { $response = "ERROR: Could not connect to Database"; }
 
 $conn->close();
 
